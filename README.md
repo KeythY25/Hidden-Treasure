@@ -72,5 +72,43 @@ README.md: This documentation file.
 
 3. Winning Condition: The treasure is found before energy depletion.
 
+# Tools Used
+
+- Programming Language: Python 3.10
+
+ Chosen for its readability and support for AI and algorithmic implementations.
+
+- IDE: Visual Studio Code
+
+ Features: Debugging tools, syntax highlighting, and extensions for Python.
+
+- Screen Recording: Screencastify
+
+ Used for creating a screencast to demonstrate the game's execution.
+
+- Flowchart Design: Lucidchart
+
+ Created the flowchart visualizing the AI search logic.
+
+- Version Control: GitHub
+
+ Repository management and collaboration.
+
+- Operating System: macOS
+
+ Development and testing were performed on macOS.
+
+# License
+
+This project is open-source and available under the MIT License.
+
+# Acknowledgments
+
+Python Standard Library: Documentation and tools.
+
+Amit Patel: Insightful explanation of A* Algorithm (Game Programming).
+
+
+
 
 
