@@ -6,19 +6,71 @@ This repository contains the implementation of Hidden Treasure Hunt AI, a 2D sim
 # Features
 
 Dynamic Gameplay: Randomized grid initialization, starting point, and treasure location.
+
 AI Search Algorithms:
+
 BFS: Systematic exploration for uncovering clues.
+
 A*: Optimized pathfinding using heuristics.
+
 Hill Climbing: Efficient fine-tuning when close to the treasure.
+
 Obstacle Navigation: Avoid static obstacles while exploring the map.
+
 Energy Management: Players must reach the treasure before running out of energy.
 
 # Repository Contents
 p1.py: Main script containing the game logic and AI algorithms.
+
 flowchart.png: Visual representation of the AI decision-making process.
+
 README.md: This documentation file.
 
 # FlowChart
 <img width="359" alt="image" src="https://github.com/user-attachments/assets/1f5aa46b-4794-4226-8969-52c59bc6d8d8" />
+
+# Getting Started
+
+## Prerequisites
+
+- Python 3.10 or higher
+
+## Dependencies
+
+-Standard libraries: collections, heapq, random
+
+## Installation
+
+1. Clone this  repository to your local machine:
+
+ git clone <repository-link>
+
+2. Navigate to the project folder:
+
+ cd hidden-treasure-hunt
+
+## Running the Game
+
+1. Ensure Python 3.10 or higher is installed on your machine.
+ 
+2. Execute the game script:
+ python3 p1.py
+
+3.Follow on-screen instructions to play the game.
+
+## How It Works
+
+1.Grid Initialization: A 10x10 grid is generated with random starting and treasure locations. Obstacles are predefined.
+
+2.Search Techniques:
+
+ - BFS is used to locate the nearest clue.
+  
+ - A* navigates towards the treasure using cost and heuristic estimation.
+  
+ - Hill Climbing is employed for final adjustments when the treasure is within proximity.
+
+3. Winning Condition: The treasure is found before energy depletion.
+
 
 
